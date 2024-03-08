@@ -3,6 +3,7 @@
     "rules": "database.rules.json"
   },
   "hosting": {
+    "site": "noun69",
     "public": "public",
     "ignore": [
       "firebase.json",

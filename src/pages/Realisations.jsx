@@ -25,7 +25,7 @@ function Realisations() {
     getProjectsList();
   }, []);
   return (
-    <div className="bg-gradient-to-bl from-blue-50 to-violet-50 flex flex-col items-center justify-center pt-16 lg:h-fit">
+    <div className="bg-gradient-to-bl from-blue-50 to-violet-50 flex flex-col items-center justify-center pt-16 ">
       <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
         <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
           Design Better
@@ -38,7 +38,7 @@ function Realisations() {
       </p>
       {!projectsList ? (
         <div
-          className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
+          className=" m-20 inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
           role="status"
         >
           <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
