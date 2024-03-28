@@ -2,22 +2,19 @@ import { NavLink } from "react-router-dom";
 export default function Home() {
   return (
     <div className="bg-white">
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div
+        className="relative isolate px-6 pt-14 lg:px-8"
+        style={{
+          backgroundImage:
+            "linear-gradient(180deg, #18453f 40%, #1d6648 80%, #ffffff 100%)",
+        }}
+      >
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our next round of funding.{" "}
-              <a href="#" className="font-semibold text-indigo-600">
-                <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </a>
-            </div>
-          </div>
           <div className="text-center">
-            <h1 className="text-4xl  font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-4xl  font-bold tracking-tight text-gray-50 sm:text-6xl">
               Data to enrich your online business
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-gray-100">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
               lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
               fugiat aliqua.
@@ -172,7 +169,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="container p-6 px-6 mx-auto bg-white dark:bg-gray-800 lg:mt-20 lg:mb-20">
         <div className="mb-16 text-center">
           <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
@@ -300,7 +296,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-blue-500 to-purple-500 py-16 px-4 sm:px-6 lg:px-8">
+      <div
+        className=" py-16 px-4 sm:px-6 lg:px-8"
+        style={{
+          backgroundImage:
+            "linear-gradient(90deg,#18453f 10%, #3db2a9 33%, #18453f 66%, #3db2a9 100%)",
+        }}
+      >
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
             Elevate Your Brand with Us

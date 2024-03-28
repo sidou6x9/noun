@@ -46,8 +46,8 @@ function Login({ user }) {
             className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
           >
             <img
-              className="w-8 h-8 mr-2"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
+              className=" h-12 w-auto mr-2"
+              src="/logo-light-green.png"
               alt="logo"
             />
             Noun
@@ -117,9 +117,12 @@ function Login({ user }) {
                 </div>
                 <button
                   type="submit"
-                  className="w-full text-stone-800 font-semibold bg-yellow-400 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                  className=" bg-stone-50 hover:before:bg-stone-950  relative p-2 overflow-hidden font-bold   px-3  transition before:absolute before:bottom-0 before:left-0 before:text-stone-100 before:top-0 before:z-0 before:h-full before:w-0 before:  before:transition-all before:duration-500 hover:text-emerald-300 
+            hover:before:left-0 hover:before:w-full"
                 >
-                  Sign in
+                  <span className="relative z-10" aria-hidden="true">
+                    Sign In &rarr;
+                  </span>
                 </button>
               </form>
             </div>

@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <header className="absolute  lg:relative inset-x-0 top-0 z-50">
       <nav
-        className="flex items-center transparent  justify-between p-6 lg:px-8 lg:bg-zinc-50"
+        className="flex items-center transparent  justify-between p-6 lg:px-8 lg:bg-zinc-950"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -44,10 +44,10 @@ export default function Navbar() {
             <Link
               key={item.name}
               to={item.to}
-              className=" bg-stone-50 hover:before:bg-stone-950  relative p-2 overflow-hidden font-bold   px-3  transition   before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:  before:transition-all before:duration-500 hover:text-emerald-300 
+              className=" bg-stone-950 hover:before:bg-stone-50  relative p-2 overflow-hidden font-bold   px-3  transition text-emerald-300  before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:  before:transition-all before:duration-500 hover:text-stone-950 
               hover:before:left-0 hover:before:w-full"
             >
-              <span className="relative z-10" aria-hidden="true">
+              <span className="relative z-10 " aria-hidden="true">
                 {item.name}
               </span>
             </Link>
@@ -56,7 +56,7 @@ export default function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
             to="/login"
-            className="text-green text-center font-bold align-middle hover:before:bg-stone-950 hover:scale-110 relative p-2 overflow-hidden border-2 rounded-full border-stone-950  px-3 text-stone-950 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:  before:transition-all before:duration-500 hover:text-stone-50 hover:shadow-emerald-500 hover:border-emerald-300 hover:before:left-0 hover:before:w-full"
+            className="text-green text-center font-bold align-middle hover:before:bg-stone-50 hover:scale-110 relative p-2 overflow-hidden border-2 rounded-full border-stone-50  px-3 text-emerald-300 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:  before:transition-all before:duration-500 hover:text-stone-950 hover:shadow-emerald-500 hover:border-emerald-300 hover:before:left-0 hover:before:w-full"
           >
             <span className="relative z-10" aria-hidden="true">
               Log in &rarr;
