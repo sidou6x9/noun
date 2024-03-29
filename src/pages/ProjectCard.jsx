@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectsCard({ imageUrl, title, content }) {
+function ProjectsCard({ imageUrl, title, content, images }) {
   return (
     <div className="bg-white rounded-lg border  p-4">
       <img

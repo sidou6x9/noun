@@ -54,6 +54,7 @@ function Realisations() {
                 title={project.title}
                 content={project.description}
                 imageUrl={project.images[0]}
+                images={project.images}
               />
             ))}
           </div>

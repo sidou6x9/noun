@@ -248,11 +248,11 @@ export default function Home() {
               >
                 <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z" />
               </svg>
-              <div className="ml-4 text-xl">Brand Identity Development</div>
+              <div className="ml-4 text-xl">Social Media Growth</div>
             </div>
             <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-              Develop a cohesive brand identity that resonates with your
-              audience and sets you apart from the competition.
+              Engaging graphics tailored for your social media platforms.
+              Customized cover photos to enhance your online presence.
             </p>
           </div>
           <div className="w-full p-8 border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0">
@@ -267,11 +267,11 @@ export default function Home() {
               >
                 <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z" />
               </svg>
-              <div className="ml-4 text-xl">Visual Identity Enhancement</div>
+              <div className="ml-4 text-xl">Marketing Materials</div>
             </div>
             <p className="leading-loose text-gray-500 dark:text-gray-200 text-md">
-              Enhance your visual identity with captivating designs that leave a
-              lasting impression on your audience.
+              Eye-catching flyer design to promote your business or event.
+              Custom poster design for advertising or decoration purposes.
             </p>
           </div>
           <div className="w-full p-8 md:w-1/2 lg:w-1/3">
@@ -340,13 +340,12 @@ export default function Home() {
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             {/* Pricing Card */}
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
+              <h3 className="mb-4 text-2xl font-semibold">PACK BRONZE</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                 Best option for personal use & for your next project.
               </p>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">$29</span>
-                <span className="text-gray-500 dark:text-gray-400">/month</span>
+                <span className="mr-2 text-5xl font-extrabold">4000 da</span>
               </div>
               {/* List */}
               <ul role="list" className="mb-8 space-y-4 text-left">
@@ -364,7 +363,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Individual configuration</span>
+                  <span>Two initial designs</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* Icon */}
@@ -380,7 +379,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>No setup, or hidden fees</span>
+                  <span>Two optional revisions</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* Icon */}
@@ -396,66 +395,18 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>
-                    Team size:{" "}
-                    <span className="font-semibold">1 developer</span>
-                  </span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  {/* Icon */}
-                  <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clipRule="evenodd"
-                    ></path>
-                  </svg>
-                  <span>
-                    Premium support:{" "}
-                    <span className="font-semibold">6 months</span>
-                  </span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  {/* Icon */}
-                  <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clipRule="evenodd"
-                    ></path>
-                  </svg>
-                  <span>
-                    Free updates:{" "}
-                    <span className="font-semibold">6 months</span>
-                  </span>
+                  <span>Final product in different formats </span>
                 </li>
               </ul>
-              <a
-                href="#"
-                className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-primary-900"
-              >
-                Get started
-              </a>
             </div>
             {/* Pricing Card */}
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold">Company</h3>
+              <h3 className="mb-4 text-2xl font-semibold">Pack Silver</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                 Relevant for multiple users, extended & premium support.
               </p>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">$99</span>
-                <span className="text-gray-500 dark:text-gray-400">/month</span>
+                <span className="mr-2 text-5xl font-extrabold">6000 da</span>
               </div>
               {/* List */}
               <ul role="list" className="mb-8 space-y-4 text-left">
@@ -473,7 +424,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Individual configuration</span>
+                  <span>Three initial designs</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* Icon */}
@@ -489,7 +440,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>No setup, or hidden fees</span>
+                  <span>Three optional revisions</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* Icon */}
@@ -505,10 +456,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>
-                    Team size:{" "}
-                    <span className="font-semibold">10 developers</span>
-                  </span>
+                  <span>Final product in different formats </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* Icon */}
@@ -524,37 +472,9 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>
-                    Premium support:{" "}
-                    <span className="font-semibold">24 months</span>
-                  </span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  {/* Icon */}
-                  <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clipRule="evenodd"
-                    ></path>
-                  </svg>
-                  <span>
-                    Free updates:{" "}
-                    <span className="font-semibold">24 months</span>
-                  </span>
+                  <span>Copywright ownership </span>
                 </li>
               </ul>
-              <a
-                href="#"
-                className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-primary-900"
-              >
-                Get started
-              </a>
             </div>
             {/* Pricing Card */}
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
@@ -563,8 +483,7 @@ export default function Home() {
                 Best for large scale uses and extended redistribution rights.
               </p>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">$499</span>
-                <span className="text-gray-500 dark:text-gray-400">/month</span>
+                <span className="mr-2 text-5xl font-extrabold">10,000 da</span>
               </div>
               {/* List */}
               <ul role="list" className="mb-8 space-y-4 text-left">
@@ -582,7 +501,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Individual configuration</span>
+                  <span>Three initial designs</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* Icon */}
@@ -598,7 +517,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>No setup, or hidden fees</span>
+                  <span>Unlimited revisions for 3 months</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* Icon */}
@@ -614,10 +533,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>
-                    Team size:{" "}
-                    <span className="font-semibold">100+ developers</span>
-                  </span>
+                  <span>Final product in different formats </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* Icon */}
@@ -633,10 +549,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>
-                    Premium support:{" "}
-                    <span className="font-semibold">36 months</span>
-                  </span>
+                  <span>Copywright ownership </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* Icon */}
@@ -652,18 +565,9 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>
-                    Free updates:{" "}
-                    <span className="font-semibold">36 months</span>
-                  </span>
+                  <span>Priority customer support </span>
                 </li>
               </ul>
-              <a
-                href="#"
-                className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-primary-900"
-              >
-                Get started
-              </a>
             </div>
           </div>
         </div>

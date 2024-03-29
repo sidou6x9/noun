@@ -25,7 +25,7 @@ export default function Navbar() {
             <img
               className="relative h-10 w-auto hidden  duration-500 hover:scale-110 lg:block"
               src="/logo-dark-green.png"
-              alt=""
+              alt="noun-logo"
             />
           </Link>
         </div>
@@ -71,15 +71,19 @@ export default function Navbar() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-50" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 bg-stone-800 w-full overflow-y-auto  px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 bg-stone-950 w-full overflow-y-auto  px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">NounDesigns</span>
-              <img className="h-8 w-auto" src="/versace.jpg" alt="" />
+              <img
+                className="h-8 w-auto"
+                src="/logo-dark-green.png"
+                alt="noun-logo"
+              />
             </Link>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-amber-300"
+              className="-m-2.5 rounded-md p-2.5 text-emerald-300 "
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
@@ -93,18 +97,26 @@ export default function Navbar() {
                   <Link
                     key={item.name}
                     to={item.to}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base -bold-semibold leading-7 text-amber-300 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg bg-stone-950 hover:before:bg-stone-50  relative p-2 overflow-hidden font-bold   px-3  transition text-emerald-300  before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:  before:transition-all before:duration-500 hover:text-stone-950 
+                    hover:before:left-0 hover:before:w-full"
+                    onClick={() => setMobileMenuOpen(false)}
                   >
-                    {item.name}
+                    <span className="relative z-10" aria-hidden="true">
+                      {item.name}
+                    </span>
                   </Link>
                 ))}
               </div>
               <div className="py-6">
                 <Link
                   to="/login"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-amber-300 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg bg-stone-950 hover:before:bg-stone-50  relative p-2 overflow-hidden font-bold   px-3  transition text-emerald-300  before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:  before:transition-all before:duration-500 hover:text-stone-950 
+                  hover:before:left-0 hover:before:w-full"
+                  onClick={() => setMobileMenuOpen(false)}
                 >
-                  Log in
+                  <span className="relative z-10" aria-hidden="true">
+                    Log In
+                  </span>
                 </Link>
               </div>
             </div>
