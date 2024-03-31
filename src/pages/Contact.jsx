@@ -10,7 +10,7 @@ function ContactForm() {
       }}
     >
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-stone-300 dark:text-white">
+        <h2 className="mb-4 mt-8 text-4xl tracking-tight font-extrabold text-center text-stone-950 dark:text-stone-50">
           Contact Us
         </h2>
         <p className="mb-8 lg:mb-16 font-medium text-center text-gray-200 dark:text-gray-50 sm:text-xl">

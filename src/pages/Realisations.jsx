@@ -25,7 +25,7 @@ function Realisations() {
     getProjectsList();
   }, []);
   return (
-    <div className="bg-gradient-to-bl from-blue-50 to-violet-50 flex flex-col items-center justify-center pt-16 ">
+    <div className="bg-gradient-to-bl from-blue-50 to-violet-50 flex flex-col items-center justify-center pt-16 min-h-full">
       <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
         <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
           Design Better
@@ -53,8 +53,7 @@ function Realisations() {
                 key={project.id}
                 title={project.title}
                 content={project.description}
-                imageUrl={project.images[0]}
-                images={project.images}
+                imageUrl={project.images}
               />
             ))}
           </div>

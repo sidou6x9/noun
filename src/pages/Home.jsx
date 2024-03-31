@@ -501,7 +501,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Three initial designs</span>
+                  <span>Five initial designs</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* Icon */}
